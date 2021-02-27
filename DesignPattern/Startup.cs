@@ -53,6 +53,5 @@ namespace DesignPattern
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
-
     }
 }
