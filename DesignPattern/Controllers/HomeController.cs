@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using DesignPattern.Models;
-using FactoryMethod;
 
 namespace DesignPattern.Controllers
 {
