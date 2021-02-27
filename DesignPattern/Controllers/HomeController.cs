@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using DesignPattern.Models;
+using FactoryMethod;
 
 namespace DesignPattern.Controllers
 {
@@ -13,6 +14,7 @@ namespace DesignPattern.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
+        //private readonly IUserType= null;
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -20,6 +22,7 @@ namespace DesignPattern.Controllers
 
         public IActionResult Index()
         {
+            
             return View();
         }
 
